@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.name{
+    text-align: center;
+    margin-top: 2rem;
+    color: rgba(143,50,160);
+}
+.four{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 50vh;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+    position: relative;
+    left: 20%;
+    top: 20%;
+    text-align: center;
+}
+.box:hover{
+    cursor: pointer;
+}
+.enter{
+    text-align: center;
+}
+input{
+    height: 2rem;
+    padding: 0.1rem 0.2rem;
+    font-size: 130%;
+}
+button{
+    padding: 0.5rem 1rem;
+    font-size: 115%;
+}
+button:hover{
+    cursor: pointer;
+}
