@@ -4,6 +4,7 @@
 }
 .name{
     text-align: center;
+    margin: 0 auto;
     margin-top: 2rem;
     color: rgba(143,50,160);
 }
@@ -41,4 +42,30 @@ button{
 }
 button:hover{
     cursor: pointer;
+}
+
+@media (width<=850px){
+    .box{
+        width: 6rem;
+        height: 6rem;
+    }
+    .four{
+        height: 25vh;
+    }
+}
+@media (width<=500px){
+    .four{
+        height: 100vh;
+        grid-template-columns: 1fr;
+        width: 80%;
+        padding-left: 10%;
+    }
+    .box{
+        width: 8rem;
+        height: 8rem;
+    }
+    .enter{
+        position: relative;
+        top:5rem;
+    }
 }
