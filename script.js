@@ -4,6 +4,11 @@ function color(element){
 }
 function change(){
     let curr = document.querySelector('button').previousElementSibling.value
-    document.querySelector('.name').textContent = "Hello, "+curr;
+    if(curr.trim()==""){
+        document.querySelector('.name').textContent = "Hello";
+    }
+    else{
+        document.querySelector('.name').textContent = "Hello, "+curr;
+    }
     document.querySelector('button').previousElementSibling.value = "";
 }
